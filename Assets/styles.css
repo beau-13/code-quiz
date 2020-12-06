@@ -1,0 +1,63 @@
+.btn-grid{
+    display: grid;
+    gap: 10px
+}
+
+nav
+{
+   position: fixed;
+   top: 0;
+}
+
+#timer{
+    float: right
+}
+
+#highscore{
+    float: left;
+    margin-right: 400px;
+}
+
+.btn{
+    background-color: rgb(222, 139, 224);
+    width: 50%;
+}
+
+.btn:hover{
+    border-color:black ;
+}
+
+.container{
+    width: 800px;
+    max-width: 80%;
+    padding: 10px;
+    box-shadow: 0 0 10px 2px;
+}
+
+body{
+    padding: 0;
+    margin: 0;
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    font-size:x-large;
+
+}
+
+.start-btn{
+    font-size: 50px;
+    font-weight: bold;
+    padding: 10px 20px
+}
+
+.hidden{
+    display: none;
+}
+
+.controls{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

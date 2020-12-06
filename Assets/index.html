@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz App</title>
+    <link href= "styles.css" rel = "stylesheet">
+</head>
+<body>
+    <nav>
+    <p id="timer">Timer:60</p>
+    <p id="highscore">View Highscores</p>
+    </nav>
+    <div class = "container">
+        <div id = "question-container" class= "hidden">
+            <div id="question">Question</div>
+            <div id="answer-buttons" class = "btn-grid">
+                <button class="btn">Answer 1</button>
+                <button class="btn">Answer 2</button>
+                <button class="btn">Answer 3</button>
+                <button class="btn">Answer 4</button>
+        
+            </div>
+        </div>
+        <div class="controls">
+            <button id="start-btn" class="start-btn btn">Start Quiz</button>
+        </div>
+        <div id="High-Score" class= "hide">
+            <input id="username">
+            <button id="submit">Submit</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
+
+<!-- 1) Start button 
+2) event listener against button 
+3) on click timer starts, display one of many question
+4) every question has a list of answers (buttons)
+5) click on answer, correct: go next question, incorrect: subtract from timer, go next question.
+6) time finishes, game is over
+7) all questions answered, game is over -->
